@@ -1,0 +1,11 @@
+framework module FruitNames {
+  umbrella header "FruitNames.h"
+
+  export *
+  module * { export * }
+}
+
+module FruitNames.Swift {
+    header "FruitNames-Swift.h"
+    requires objc
+}
