@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-private class TagsView : UIView{
+internal class TagsView : UIView{
     
     let view = UIView()
     var collectiontags : UICollectionView?
